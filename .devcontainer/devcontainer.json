@@ -1,0 +1,27 @@
+{
+  "name": "Deno",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "deno.enable": true,
+        "deno.lint": true,
+        "editor.defaultFormatter": "denoland.vscode-deno",
+        "editor.formatOnSave": true
+      },
+      "extensions": [
+		"denoland.vscode-deno",
+		"vscodevim.vim",
+		"streetsidesoftware.code-spell-checker",
+		"ms-azuretools.vscode-docker",
+		"eamodio.gitlens",
+		"bungcip.better-toml",
+		"bodil.prettier-toml",
+		"foxundermoon.shell-format"
+	]
+    }
+  },
+  "remoteUser": "vscode"
+}
