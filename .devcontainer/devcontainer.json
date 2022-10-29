@@ -12,15 +12,15 @@
         "editor.formatOnSave": true
       },
       "extensions": [
-		"denoland.vscode-deno",
-		"vscodevim.vim",
-		"streetsidesoftware.code-spell-checker",
-		"ms-azuretools.vscode-docker",
-		"eamodio.gitlens",
-		"bungcip.better-toml",
-		"bodil.prettier-toml",
-		"foxundermoon.shell-format"
-	]
+        "denoland.vscode-deno",
+        "vscodevim.vim",
+        "streetsidesoftware.code-spell-checker",
+        "ms-azuretools.vscode-docker",
+        "eamodio.gitlens",
+        "bungcip.better-toml",
+        "bodil.prettier-toml",
+        "foxundermoon.shell-format"
+      ]
     }
   },
   "remoteUser": "vscode"
