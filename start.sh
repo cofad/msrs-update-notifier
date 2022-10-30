@@ -2,6 +2,7 @@
 deno run \
   --allow-env=GMAIL_PASSWORD \
   --allow-net=:8080,smtp.gmail.com:465 \
+  --allow-read=local/msrs-launch-dates.txt \
   --watch \
   --check \
   ./src/main.ts
