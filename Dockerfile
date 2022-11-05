@@ -25,7 +25,7 @@ ENTRYPOINT ["/bin/deno"]
 CMD [ \
   "run", \
   "--allow-env=GMAIL_PASSWORD", \
-  "--allow-net=:8080,smtp.gmail.com:465", \
+  "--allow-net=:8080,smtp.gmail.com:465,midsouthrockets.com", \
   "--allow-read=local/msrs-launch-dates.txt", \
   "./src/main.ts" \
   ]
